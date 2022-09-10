@@ -19,6 +19,10 @@ depends: [
   "sexplib" {with-test}
   "alcotest" {with-test & >= "0.8.0"}
 ]
+pin-depends: [
+  [ "melange-compiler-libs.dev" "git+https://github.com/melange-re/melange-compiler-libs.git"]
+  [ "melange.dev" "git+https://github.com/melange-re/melange.git#fork" ]
+]
 synopsis:
   "Ppx for generating serialisation and de-serialisation functions of ocaml types"
 description: """

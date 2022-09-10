@@ -1,0 +1,27 @@
+{
+  "name": "ppx_protocol_conv",
+  "version": "1.0.0",
+  "description": "ppx_protocol_conv runtime dependencies packaged for melange",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersfugmann/ppx_protocol_conv.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersfugmann/ppx_protocol_conv/issues"
+  },
+  "homepage": "https://github.com/andersfugmann/ppx_protocol_conv#readme",
+  "files": [
+    "bsconfig.json",
+    "ppx_protocol_conv.opam",
+    "runtime/**/*.ml",
+    "runtime/**/*.mli",
+    "runtime/**/*.bs.js",
+    "drivers/generic/**/*.ml",
+    "drivers/generic/**/*.mli",
+    "drivers/generic/**/*.bs.js",
+    "!**/dune",
+    "!**/.merlin"
+  ]
+}

@@ -3,6 +3,10 @@
 build:
 	dune build @install
 
+build-melange:
+	dune exec -- mel rules
+	dune build @mel
+
 clean:
 	dune clean
 

@@ -1,0 +1,17 @@
+{
+  "name": "ppx_protocol_conv",
+  "namespace": "Protocol_conv",
+  "sources": [
+    {
+      "dir": "runtime"
+    },
+    {
+      "dir": "drivers/generic"
+    }
+  ],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js"
+}

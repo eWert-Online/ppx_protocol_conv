@@ -5,3 +5,5 @@ drivers/json/test/types.ml
 test.ml
 ppx_protocol_conv*.install
 bench.txt
+
+dune.mel
