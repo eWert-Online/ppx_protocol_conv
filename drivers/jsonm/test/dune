@@ -9,8 +9,9 @@
  (action  (run %{deps}))
 )
 
-(alias
- (name runtest)
+(rule
+ (alias runtest)
  (package ppx_protocol_conv_jsonm)
+ (deps unittest.expected unittest.output)
  (action (diff unittest.expected unittest.output))
 )
